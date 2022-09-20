@@ -1,6 +1,9 @@
-# Webpack Frontend Starterkit
+# Grand Component
 
-A lightweight foundation for your next webpack based frontend project.
+Using Node v 14+
+```sh
+nvm use 14
+```
 
 ### Installation
 
@@ -13,12 +16,8 @@ npm install
 ```sh
 npm start
 ```
+- Component will run at http://localhost:8080/
 
-### Build Prod Version
-
-```sh
-npm run build
-```
 
 ### Features:
 

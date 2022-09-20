@@ -3,12 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
-  <meta name="description" content="A light foundation for your next frontend project based on webpack.">
+  <title>GCE Grand Component</title>
 </head>
 <body>
-  <img src="images/webpack.png" alt="Webpack logo">
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+  <section class="grand-component">
+    <div class="row justify-content-md-center form-control-container">
+        <div class="col-xs-12 col-md-8">
+            <h3>Grand Component</h3>
+            <!-- Form Controls -->
+            <form action="#" class="form">
+                <div class="form-group">
+                    <label for="color_theme"></label>
+                    <div class="select-wrapper">
+                        <div class="custom-select">
+                            <select id="color" class="form-control form-control-md-lg" name="color_theme">
+                                <option selected>What is your favorite color?</option>
+                                <option value="purple">Purple</option>
+                                <option value="blue">Blue</option>
+                                <option value="green">Green</option>
+                                <option value="orange">Orange</option>
+                                <option value="yellow">Yellow</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-xs-12 col-md-8">
+            <div class="component-image">
+                <a href="http://www.gcu.edu/" target="_blank">
+                    <img src="images/TestImage.jpg" alt="GCU!!!"/>
+                    <div id="ctaContainer" class="cta-container">
+                        <span class="color">My favorite color is...</span>
+                        <svg class="chevron" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45l166-166q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z"/></svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script type="module" src="./scripts/index.js" defer></script>
 </body>
 </html>
+
+
